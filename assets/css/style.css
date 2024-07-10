@@ -1,0 +1,105 @@
+/* importing google font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+/* global  css*/
+html {
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-font-family:"Azeret Mono", monospace;
+    --primary-color:#0D1321;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 52px;
+    color: var(--primary-color);
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 32px;
+    font-weight: 900;
+}
+h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+p{
+    color: var(--primary-color);
+    line-height: 28px;
+    font-size: 16px;
+}
+a{
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+.w-100{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.primary-font{
+    font-family:var(--primary-font-family);
+}
+.primary-btn{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 18px 24px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-center{
+    text-align: center;
+}
+.sectionSpace{
+    margin: 90px 0px;
+}
+.sectionHeader{
+    margin: 80px auto;
+}
+
+/* header css */
+header{
+    align-items: center;
+    justify-content: space-between;
+}
+header > button{
+    background-color: transparent;
+    padding: 12px 24px;
+    border: 2px solid #0D1321;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+}
+/* footer */
+footer{
+    background-color: #0d132117;
+}
+.footerContent{
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.social a{
+    margin: 5px;
+}
